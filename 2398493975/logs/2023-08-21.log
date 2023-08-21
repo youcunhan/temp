@@ -1,0 +1,190 @@
+[0m2023-08-21 13:21:54 V/Net 2398493975: Validated caches.[0m
+[0m2023-08-21 13:21:54 V/Net 2398493975: Loading server list from cache.[0m
+[0m2023-08-21 13:21:54 V/Net 2398493975: Server list: 120.232.65.165:443, 106.39.206.110:80, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 121.229.94.199:14000, 14.22.9.53:8080.[0m
+[92m2023-08-21 13:22:18 I/Net 2398493975: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-08-21 13:22:19 I/Net 2398493975: Successfully fetched ecdh public key from server.[0m
+[0m2023-08-21 13:22:19 V/Net 2398493975: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-08-21 13:22:19 D/Net 2398493975: [AuthControl/acquire] Authorization responded: Password@600892101[0m
+[0m2023-08-21 13:22:27 V/Net 2398493975: Send: wtlogin.login(9:password-login)[0m
+[0m2023-08-21 13:22:27 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:22:30 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-21 13:22:30 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-08-21 13:22:47 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-21 13:22:47 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-08-21 13:23:07 V/Net 2398493975: Send: wtlogin.login(2:submit-slider)[0m
+[0m2023-08-21 13:23:08 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:23:12 V/Net 2398493975: Send: wtlogin.login(8:request-sms)[0m
+[0m2023-08-21 13:23:12 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:24:16 V/Net 2398493975: Send: wtlogin.login(8:request-sms)[0m
+[0m2023-08-21 13:24:16 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:25:06 V/Net 2398493975: Send: wtlogin.login(8:request-sms)[0m
+[0m2023-08-21 13:25:07 V/Net 2398493975: Recv: wtlogin.login[0m
+[91m2023-08-21 13:25:07 E/Net 2398493975: Exception in coroutine 'unnamed'
+net.mamoe.mirai.network.RetryLaterException: 短信发送失败，请你稍后重试。
+	at net.mamoe.mirai.internal.network.protocol.packet.login.SmsVerifyInfo.requestSms(WtLogin.kt:57)
+	at net.mamoe.mirai.internal.network.protocol.packet.login.SmsVerifyInfo$requestSms$1.invokeSuspend(WtLogin.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:771)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:741)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:117)
+	at java.desktop/java.awt.WaitDispatchSupport$2.run(WaitDispatchSupport.java:191)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:236)
+	at java.desktop/java.awt.WaitDispatchSupport$4.run(WaitDispatchSupport.java:234)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at java.desktop/java.awt.WaitDispatchSupport.enter(WaitDispatchSupport.java:234)
+	at java.desktop/java.awt.Dialog.show(Dialog.java:1080)
+	at java.desktop/java.awt.Component.show(Component.java:1728)
+	at java.desktop/java.awt.Component.setVisible(Component.java:1675)
+	at java.desktop/java.awt.Window.setVisible(Window.java:1036)
+	at java.desktop/java.awt.Dialog.setVisible(Dialog.java:1016)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.KtSwingFrameworkKt.openWindowCommon(KtSwingFramework.kt:411)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.KtSwingFrameworkKt.openWindowCommon$default(KtSwingFramework.kt:275)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver.onSolveUnsafeDeviceSMSVerify$mirai_login_solver_sakura(SakuraLoginSolver.kt:228)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.SakuraLoginSolver$onDeviceVerification$rsp$1$1$1.invokeSuspend(SakuraLoginSolver.kt:190)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.SwingxDispatcher.dispatch(KtSwingFramework.kt:435)
+	at kotlinx.coroutines.internal.DispatchedContinuationKt.resumeCancellableWith(DispatchedContinuation.kt:322)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(Cancellable.kt:30)
+	at kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable$default(Cancellable.kt:25)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:58)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.WindowsOptions.runBlockingAWT$mirai_login_solver_sakura(KtSwingFramework.kt:222)
+	at mirai-login-solver-sakura-0.0.11.mirai2.jar//com.kasukusakura.mlss.resolver.WindowsOptions.withActionBlocking$lambda-7(KtSwingFramework.kt:225)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6626)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[0m
+[0m2023-08-21 13:25:25 V/Net 2398493975: Send: wtlogin.login(9:password-login)[0m
+[93m2023-08-21 13:25:25 W/Net 2398493975: Failed with auth method: Password@600892101
+java.lang.IllegalStateException: NetworkHandler is already closed.
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateClosed.sendPacketImpl(CommonNetworkHandler.kt:396)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.sendPacketImpl(CommonNetworkHandler.kt:37)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.sendAndExpect(NetworkHandlerSupport.kt:123)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.sendAndExpect(NetworkHandlerSupport.kt:149)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandler.sendAndExpect$default(NetworkHandler.kt:194)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$LoginStrategy.sendAndExpect(SsoProcessor.kt:367)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl.doLogin(SsoProcessor.kt:443)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$SlowLoginImpl$doLogin$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[0m2023-08-21 13:25:25 V/Net 2398493975: [AuthControl/resume] Fire auth failed with cause: java.lang.IllegalStateException: NetworkHandler is already closed.[0m
+[93m2023-08-21 13:25:25 W/Net 2398493975: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException
+[0m
+[93m2023-08-21 13:25:25 W/Net 2398493975: Network selector received exception, closing bot. (net.mamoe.mirai.internal.network.handler.selector.SelectorRequireReconnectException)[0m
+[0m2023-08-21 13:25:33 V/Net 2398493975: Validated caches.[0m
+[0m2023-08-21 13:25:33 V/Net 2398493975: Loading server list from cache.[0m
+[0m2023-08-21 13:25:33 V/Net 2398493975: Server list: 120.232.65.165:443, 106.39.206.110:80, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 121.229.94.199:14000, 14.22.9.53:8080.[0m
+[92m2023-08-21 13:25:52 I/Net 2398493975: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-08-21 13:25:53 I/Net 2398493975: Successfully fetched ecdh public key from server.[0m
+[0m2023-08-21 13:25:53 V/Net 2398493975: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-08-21 13:25:53 D/Net 2398493975: [AuthControl/acquire] Authorization responded: Password@1645061654[0m
+[0m2023-08-21 13:25:59 V/Net 2398493975: Send: wtlogin.login(9:password-login)[0m
+[0m2023-08-21 13:26:00 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:26:02 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-21 13:26:02 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-08-21 13:26:17 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-21 13:26:17 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-08-21 13:26:41 V/Net 2398493975: Send: wtlogin.login(2:submit-slider)[0m
+[0m2023-08-21 13:26:42 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:27:26 V/Net 2398493975: Send: wtlogin.login(9:password-login)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: wtlogin.login[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: [AuthControl/resume] Fire auth completed[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: StatSvc.register(online)[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Server time updated, serverTime: 1692595647, diff: 0ms=0.0s[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: StatSvc.register[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Loading BdhSession from cache file[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Syncing friend message history...[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Start loading friend list...[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Start loading stranger list...[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Start loading friendGroup list...[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: OidbSvc.0x5d2_0[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Successfully loaded stranger list: 0 in total[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: No OtherClient online.[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: OidbSvc.0x496[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Start loading group list...[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Syncing friend message history: Success.[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: friendlist.getFriendGroupList[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Loading friendGroup list: 4/4[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Successfully loaded friendGroup list: 4 in total[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: friendlist.getFriendGroupList[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Loading friend list: 2/2[0m
+[92m2023-08-21 13:27:27 I/Net 2398493975: Successfully loaded friend list: 2 in total[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-21 13:27:27 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-21 13:27:28 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-21 13:27:28 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-21 13:27:28 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-21 13:27:28 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-21 13:27:28 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-08-21 13:27:28 I/Net 2398493975: Successfully loaded group list: 3 in total.[0m
+[92m2023-08-21 13:27:28 I/Net 2398493975: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2023-08-21 13:27:28 I/Net 2398493975: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Server list: 183.47.102.213:8080, 120.232.130.46:443, 157.148.54.141:80, 106.39.206.110:80, 222.94.109.78:14000, msfwifi.3g.qq.com:8080.[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Saving bdh session to cache[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Saving server list to cache[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Saving bdh session to cache[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-08-21 13:27:30 V/Net 2398493975: Recv: ConfigPushSvc.PushReq[0m

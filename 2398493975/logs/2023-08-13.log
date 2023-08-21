@@ -1,0 +1,323 @@
+[0m2023-08-13 17:28:56 V/Net 2398493975: Validated caches.[0m
+[0m2023-08-13 17:28:56 V/Net 2398493975: Loading server list from cache.[0m
+[0m2023-08-13 17:28:56 V/Net 2398493975: Server list: 42.81.184.82:80, 120.232.31.250:443, 121.229.94.224:14000, 183.47.107.174:8080, 157.255.5.104:80, 222.94.109.78:80, msfwifi.3g.qq.com:8080.[0m
+[92m2023-08-13 17:29:14 I/Net 2398493975: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-08-13 17:29:15 I/Net 2398493975: Successfully fetched ecdh public key from server.[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Recv: wtlogin.exchange_emp[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: StatSvc.register(online)[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Server time updated, serverTime: 1691918963, diff: 2ms=0.002s[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Recv: StatSvc.register[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Syncing friend message history...[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Loading BdhSession from cache file[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Start loading friend list...[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Start loading stranger list...[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Start loading friendGroup list...[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: StatSvc.GetDevLoginInfo(StatSvc.GetDevLoginInfo)[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: OidbSvc.0x496(OidbSvc.0x496)[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: friendlist.getFriendGroupList(friendlist.getFriendGroupList)[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Send: OidbSvc.0x5d2_0(OidbSvc.0x5d2_0)[0m
+[92m2023-08-13 17:29:21 I/Net 2398493975: Successfully loaded stranger list: 0 in total[0m
+[0m2023-08-13 17:29:21 V/Net 2398493975: Recv: OidbSvc.0x5d2_0[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: StatSvc.GetDevLoginInfo[0m
+[92m2023-08-13 17:29:22 I/Net 2398493975: No OtherClient online.[0m
+[92m2023-08-13 17:29:22 I/Net 2398493975: Start loading group list...[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: OidbSvc.0x496[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.getFriendGroupList[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Loading friendGroup list: 4/4[0m
+[92m2023-08-13 17:29:22 I/Net 2398493975: Successfully loaded friendGroup list: 4 in total[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.getFriendGroupList[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Loading friend list: 2/2[0m
+[92m2023-08-13 17:29:22 I/Net 2398493975: Successfully loaded friend list: 2 in total[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:22 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-08-13 17:29:23 V/Net 2398493975: Recv: friendlist.GetTroopMemberListReq[0m
+[92m2023-08-13 17:29:23 I/Net 2398493975: Successfully loaded group list: 14 in total.[0m
+[92m2023-08-13 17:29:23 I/Net 2398493975: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2023-08-13 17:29:23 I/Net 2398493975: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2023-08-13 17:29:23 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-13 17:29:23 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[92m2023-08-13 17:29:24 I/Net 2398493975: Syncing friend message history: Success.[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Server list: 120.232.65.165:443, 106.39.206.110:80, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 121.229.94.199:14000, 14.22.9.53:8080.[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Saving bdh session to cache[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Saving server list to cache[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Saving bdh session to cache[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-08-13 17:29:24 V/Net 2398493975: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-08-13 17:29:33 V/Net 2398493975: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-08-13 17:29:33 V/Net 2398493975: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[93m2023-08-13 17:29:50 W/Net 2398493975: Exception in resumeConnection.
+net.mamoe.mirai.internal.network.impl.ForceOfflineException: 你的QQ号于17:29在【iPhone 13】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+	at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+	at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+	at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2023-08-13 17:29:50 V/Net 2398493975: Recv: MessageSvc.PushForceOffline[0m
+[0m2023-08-13 17:29:50 V/Net 2398493975: Validated caches.[0m
+[0m2023-08-13 17:29:50 V/Net 2398493975: Loading server list from cache.[0m
+[0m2023-08-13 17:29:50 V/Net 2398493975: Server list: 120.232.65.165:443, 106.39.206.110:80, msfwifi.3g.qq.com:8080, 157.148.54.249:80, 121.229.94.199:14000, 14.22.9.53:8080.[0m
+[93m2023-08-13 17:29:55 W/Net 2398493975: Exception in resumeConnection.
+StateSwitchingException(old=StateConnecting, new=StateClosed, cause=null)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:119)
+	at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:118)
+	at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:98)
+	at net.mamoe.mirai.Bot.closeAndJoin$suspendImpl(Bot.kt:245)
+	at net.mamoe.mirai.Bot.closeAndJoin(Bot.kt)
+	at net.mamoe.mirai.Bot.closeAndJoin$default(Bot.kt:244)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.shutdown$mirai_console(MiraiConsoleImplementation.kt:452)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1$1.invokeSuspend(MiraiConsoleImplementation.kt:465)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:464)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:461)
+	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+[0m
+[93m2023-08-13 17:29:55 W/Net 2398493975: Network selector received exception, closing bot. (StateSwitchingException(old=StateConnecting, new=StateClosed, cause=null))[0m
+[92m2023-08-13 17:30:13 I/Net 2398493975: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[91m2023-08-13 17:30:13 E/Net 2398493975: Failed to fetch ECDH public key from server, using default key instead
+StateSwitchingException(old=StateConnecting, new=StateClosed, cause=null)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:352)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler.close(CommonNetworkHandler.kt:425)
+	at net.mamoe.mirai.internal.network.handler.selector.SelectorNetworkHandler.close(SelectorNetworkHandler.kt:119)
+	at net.mamoe.mirai.internal.AbstractBot.close(AbstractBot.kt:118)
+	at net.mamoe.mirai.internal.QQAndroidBot.close(QQAndroidBot.kt:98)
+	at net.mamoe.mirai.Bot.closeAndJoin$suspendImpl(Bot.kt:245)
+	at net.mamoe.mirai.Bot.closeAndJoin(Bot.kt)
+	at net.mamoe.mirai.Bot.closeAndJoin$default(Bot.kt:244)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.shutdown$mirai_console(MiraiConsoleImplementation.kt:452)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1$1.invokeSuspend(MiraiConsoleImplementation.kt:465)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:85)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:59)
+	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt:38)
+	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:464)
+	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion$1.invoke(MiraiConsoleImplementation.kt:461)
+	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+	Suppressed: net.mamoe.mirai.internal.network.impl.ForceOfflineException: 你的QQ号于17:29在【iPhone 13】设备登录，当前设备已下线。如果这不是你本人操作，那么你的QQ密码可能已经泄露，请尽快重新登录并修改密码。
+		at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:35)
+		at net.mamoe.mirai.internal.network.protocol.packet.chat.receive.MessageSvcPushForceOffline.handle(MessageSvc.PushForceOffline.kt:25)
+		at net.mamoe.mirai.internal.network.components.CallPacketFactoryPacketHandler.handlePacket(PacketHandler.kt:110)
+		at net.mamoe.mirai.internal.network.components.PacketHandlerChain.handlePacket(PacketHandler.kt:42)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invokeSuspend(NetworkHandlerSupport.kt:108)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport$collectReceived$3.invoke(NetworkHandlerSupport.kt)
+		at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+		at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+		at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+		at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+		at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.collectReceived$mirai_core(NetworkHandlerSupport.kt:106)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.processBody(CommonNetworkHandler.kt:161)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline.access$processBody(CommonNetworkHandler.kt:103)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invokeSuspend(CommonNetworkHandler.kt:127)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1$3$1.invoke(CommonNetworkHandler.kt)
+		at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+		at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+		at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+		at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+		at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch$default(Builders.common.kt:47)
+		at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+		at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$PacketDecodePipeline$1.invokeSuspend(CommonNetworkHandler.kt:127)
+		at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+		at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+		at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+		at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2023-08-13 17:30:13 V/Net 2398493975: [AuthControl/acquire] Acquiring auth method[0m
+[96m2023-08-13 17:30:13 D/Net 2398493975: [AuthControl/acquire] Authorization responded: Error[kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@7e603c4a]@696522767[0m
+[93m2023-08-13 17:30:13 W/Net 2398493975: Failed with auth method: Error[kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@7e603c4a]@696522767
+net.mamoe.mirai.network.BotAuthorizationException: BotAuthorization(BotAuthorization.byPassword(<ERASED>)) threw an exception during authorization process. See cause below.
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:263)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:141)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$resumeRootWith(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:141)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$resumeRootWith(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:141)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$resumeRootWith(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:141)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$resumeRootWith(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:58)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:141)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:126)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$DefaultSender.execute(HttpSend.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRedirect$Plugin$install$1.invokeSuspend(HttpRedirect.kt:61)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRedirect$Plugin$install$1.invoke(HttpRedirect.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRedirect$Plugin$install$1.invoke(HttpRedirect.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$InterceptedSender.execute(HttpSend.kt:116)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$3.invokeSuspend(HttpCallValidator.kt:147)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$3.invoke(HttpCallValidator.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$3.invoke(HttpCallValidator.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$InterceptedSender.execute(HttpSend.kt:116)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$Plugin$install$1.invokeSuspend(HttpSend.kt:104)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$Plugin$install$1.invoke(HttpSend.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpSend$Plugin$install$1.invoke(HttpSend.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceedWith(SuspendFunctionGun.kt:91)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.DefaultTransformKt$defaultTransformers$1.invokeSuspend(DefaultTransform.kt:53)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.DefaultTransformKt$defaultTransformers$1.invoke(DefaultTransform.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.DefaultTransformKt$defaultTransformers$1.invoke(DefaultTransform.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceedWith(SuspendFunctionGun.kt:91)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$1.invokeSuspend(HttpCallValidator.kt:126)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$1.invoke(HttpCallValidator.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpCallValidator$Companion$install$1.invoke(HttpCallValidator.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRequestLifecycle$Plugin$install$1.invokeSuspend(HttpRequestLifecycle.kt:35)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRequestLifecycle$Plugin$install$1.invoke(HttpRequestLifecycle.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRequestLifecycle$Plugin$install$1.invoke(HttpRequestLifecycle.kt)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:123)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:81)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:101)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:77)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.HttpClient.execute$ktor_client_core(HttpClient.kt:187)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.statement.HttpStatement.executeUnsafe(HttpStatement.kt:107)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.statement.HttpStatement.execute(HttpStatement.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.client.statement.HttpStatement.execute(HttpStatement.kt:61)
+	at net.mamoe.mirai.internal.network.components.EcdhInitialPublicKeyUpdaterImpl$refreshInitialPublicKeyAndApplyEcdh$initialPublicKey$1$respStr$1.invokeSuspend(EcdhInitialPublicKeyUpdater.kt:144)
+	at net.mamoe.mirai.internal.network.components.EcdhInitialPublicKeyUpdaterImpl$refreshInitialPublicKeyAndApplyEcdh$initialPublicKey$1$respStr$1.invoke(EcdhInitialPublicKeyUpdater.kt)
+	at net.mamoe.mirai.internal.network.components.EcdhInitialPublicKeyUpdaterImpl$refreshInitialPublicKeyAndApplyEcdh$initialPublicKey$1$respStr$1.invoke(EcdhInitialPublicKeyUpdater.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturnIgnoreTimeout(Undispatched.kt:100)
+	at kotlinx.coroutines.TimeoutKt.setupTimeout(Timeout.kt:146)
+	at kotlinx.coroutines.TimeoutKt.withTimeout(Timeout.kt:44)
+	at kotlinx.coroutines.TimeoutKt.withTimeout-KLykuaI(Timeout.kt:71)
+	at net.mamoe.mirai.internal.network.components.EcdhInitialPublicKeyUpdaterImpl.refreshInitialPublicKeyAndApplyEcdh(EcdhInitialPublicKeyUpdater.kt:94)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl.login(SsoProcessor.kt:258)
+	at net.mamoe.mirai.internal.network.components.SsoProcessorImpl$login$1.invokeSuspend(SsoProcessor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:112)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:112)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:112)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:112)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.resumeRootWith(SuspendFunctionGun.kt:138)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:112)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun.access$loop(SuspendFunctionGun.kt:14)
+	at net.mamoe.mirai.internal.deps.io.ktor.util.pipeline.SuspendFunctionGun$continuation$1.resumeWith(SuspendFunctionGun.kt:62)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: kotlinx.coroutines.JobCancellationException: Job was cancelled; job=SupervisorJobImpl{Cancelling}@7e603c4a
+[0m
