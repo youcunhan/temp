@@ -1,0 +1,122 @@
+[0m2023-09-09 00:37:44 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 00:37:45 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 01:17:46 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 01:17:46 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 01:58:01 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 01:58:01 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 02:38:01 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 02:38:01 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 03:18:02 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 03:18:03 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 03:58:18 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 03:58:18 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 04:11:15 V/: Send: friendlist.GetTroopListReqV2(friendlist.GetTroopListReqV2)[0m
+[0m2023-09-09 04:11:15 V/: Recv: friendlist.GetTroopListReqV2[0m
+[0m2023-09-09 04:11:15 V/: Send: friendlist.GetTroopMemberListReq(friendlist.GetTroopMemberListReq)[0m
+[0m2023-09-09 04:11:15 V/: Recv: friendlist.GetTroopMemberListReq[0m
+[0m2023-09-09 04:11:15 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-09-09 04:11:15 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[96m2023-09-09 04:11:15 D/: Unknown Transformers528 0x14 template
+templId=10063
+PermList=[TemplParam#1183394288 {
+            name=invite_qq_nick
+            value=yyyouch
+    }][0m
+[96m2023-09-09 04:11:16 D/: Unknown Transformers528 0x14 template
+templId=10179
+PermList=[TemplParam#1183394288 {
+            name=invitor
+            value=2461942798
+    }, TemplParam#1183394288 {
+            name=invitee
+            value=3459246674
+    }][0m
+[0m2023-09-09 04:38:18 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 04:38:18 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 05:18:19 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 05:18:19 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 05:58:35 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 05:58:35 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 06:31:21 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-09-09 06:31:21 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-09-09 06:38:36 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 06:38:36 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 07:18:39 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 07:18:39 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 07:58:54 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 07:58:54 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 08:38:55 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 08:38:55 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 09:18:56 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 09:18:56 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 09:59:11 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 09:59:11 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 10:39:12 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 10:39:12 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 11:19:13 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 11:19:13 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 11:59:28 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 11:59:28 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 12:39:30 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 12:39:30 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 13:19:31 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 13:19:31 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 13:59:46 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 13:59:46 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 14:39:46 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 14:39:46 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 15:19:47 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 15:19:47 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 16:00:03 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 16:00:03 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 16:40:03 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 16:40:03 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 17:20:04 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 17:20:04 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 17:27:36 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-09-09 17:27:36 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-09-09 17:27:36 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-09-09 18:00:20 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 18:00:20 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 18:40:20 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 18:40:20 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 18:51:16 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 18:51:16 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 18:51:16 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-09 18:51:16 V/: [Highway] Uploading group image to 101.226.96.201:8080, size=372.53 KiB[0m
+[0m2023-09-09 18:51:16 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-09 18:51:17 V/: [Highway] Uploading group image: succeed at 471 KiB/s[0m
+[0m2023-09-09 18:51:18 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 18:51:18 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 19:20:21 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 19:20:21 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 20:00:36 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 20:00:36 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 20:33:41 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 20:33:41 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 20:33:42 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 20:33:43 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 20:33:43 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-09 20:33:43 V/: [Highway] Uploading group image to 101.226.96.201:8080, size=96.74 KiB[0m
+[0m2023-09-09 20:33:43 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-09 20:33:43 V/: [Highway] Uploading group image: succeed at 553 KiB/s[0m
+[0m2023-09-09 20:33:44 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 20:33:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 20:40:37 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 20:40:37 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 21:14:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 21:14:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 21:14:58 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-09 21:14:59 V/: [Highway] Uploading group image to 101.226.96.201:8080, size=261.11 KiB[0m
+[0m2023-09-09 21:14:59 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-09 21:14:59 V/: [Highway] Uploading group image: succeed at 442 KiB/s[0m
+[0m2023-09-09 21:15:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-09 21:15:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-09 21:20:38 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 21:20:38 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 22:00:53 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-09 22:00:53 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-09 22:40:55 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 22:40:55 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-09 23:20:57 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-09 23:20:57 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m

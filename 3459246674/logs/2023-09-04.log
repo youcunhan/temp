@@ -1,0 +1,23 @@
+[0m2023-09-04 16:06:48 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-04 16:06:49 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-04 16:06:49 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-04 16:06:49 V/: [Highway] Uploading group image to 116.130.228.169:8080, size=430.75 KiB[0m
+[0m2023-09-04 16:06:49 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-04 16:06:50 V/: [Highway] Uploading group image: succeed at 302 KiB/s[0m
+[0m2023-09-04 16:06:52 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-04 16:06:52 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-04 16:36:16 V/: Send: MultiMsg.ApplyDown(MultiMsg.ApplyDown)[0m
+[0m2023-09-04 16:36:17 V/: [Http] Downloading forward message from https://ssl.htdata.qq.com:443[0m
+[0m2023-09-04 16:36:17 V/: Recv: MultiMsg.ApplyDown[0m
+[0m2023-09-04 16:36:17 V/: [Http] Downloading forward message: succeed[0m
+[0m2023-09-04 19:30:53 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-04 19:30:53 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-04 19:30:54 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-04 19:30:55 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-04 19:30:55 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-04 19:30:55 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-04 19:30:56 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-04 19:30:57 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-04 23:47:38 V/: Send: wtlogin.exchange_emp(15:refresh-keys)[0m
+[0m2023-09-04 23:47:38 V/: Recv: wtlogin.exchange_emp[0m
+[92m2023-09-04 23:47:38 I/: Scheduled key refresh in 23h 55min 0.0s.[0m

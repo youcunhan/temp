@@ -1,55 +1,13 @@
 [
   {
-    "qq": 2398493975,
+    "qq": 3459246674,
     "ups": [
       {
-        "uid": 23350441,
+        "uid": 1710783071,
         "targets": [
           {
             "type": 1,
-            "id": 827034026,
-            "live_on": {
-              "enabled": true,
-              "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
-            },
-            "live_off": {
-              "enabled": true,
-              "message": "{uname} 直播结束了"
-            },
-            "live_report": {
-              "enabled": true,
-              "logo": "",
-              "time": true,
-              "fans_change": true,
-              "fans_medal_change": true,
-              "guard_change": true,
-              "danmu": true,
-              "box": true,
-              "gift": true,
-              "sc": true,
-              "guard": true,
-              "danmu_ranking": 3,
-              "box_ranking": 3,
-              "box_profit_ranking": 3,
-              "gift_ranking": 3,
-              "sc_ranking": 3,
-              "guard_list": true,
-              "box_profit_diagram": true,
-              "danmu_diagram": true,
-              "box_diagram": true,
-              "gift_diagram": true,
-              "sc_diagram": true,
-              "guard_diagram": true,
-              "danmu_cloud": true
-            },
-            "dynamic_update": {
-              "enabled": true,
-              "message": "{uname} {action}\n{url}{next}{picture}"
-            }
-          },
-          {
-            "type": 1,
-            "id": 631871764,
+            "id": 529379046,
             "live_on": {
               "enabled": true,
               "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
@@ -139,6 +97,53 @@
         ]
       },
       {
+        "uid": 667097659,
+        "targets": [
+          {
+            "type": 1,
+            "id": 892197954,
+            "live_on": {
+              "enabled": true,
+              "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
+            },
+            "live_off": {
+              "enabled": true,
+              "message": "{uname} 直播结束了"
+            },
+            "live_report": {
+              "enabled": true,
+              "logo": "",
+              "time": true,
+              "fans_change": true,
+              "fans_medal_change": true,
+              "guard_change": true,
+              "danmu": true,
+              "box": true,
+              "gift": true,
+              "sc": true,
+              "guard": true,
+              "danmu_ranking": 3,
+              "box_ranking": 3,
+              "box_profit_ranking": 3,
+              "gift_ranking": 3,
+              "sc_ranking": 3,
+              "guard_list": true,
+              "box_profit_diagram": true,
+              "danmu_diagram": true,
+              "box_diagram": true,
+              "gift_diagram": true,
+              "sc_diagram": true,
+              "guard_diagram": true,
+              "danmu_cloud": true
+            },
+            "dynamic_update": {
+              "enabled": true,
+              "message": "{uname} {action}\n{url}{next}{picture}"
+            }
+          }
+        ]
+      },
+      {
         "uid": 2106947824,
         "targets": [
           {
@@ -182,15 +187,10 @@
               "enabled": true,
               "message": "{uname} {action}\n{url}{next}{picture}"
             }
-          }
-        ]
-      },
-      {
-        "uid": 589649610,
-        "targets": [
+          },
           {
             "type": 1,
-            "id": 832494815,
+            "id": 160275658,
             "live_on": {
               "enabled": true,
               "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
@@ -233,11 +233,11 @@
         ]
       },
       {
-        "uid": 3494350159874148,
+        "uid": 1998725039,
         "targets": [
           {
             "type": 1,
-            "id": 818847579,
+            "id": 585829378,
             "live_on": {
               "enabled": true,
               "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
@@ -280,11 +280,11 @@
         ]
       },
       {
-        "uid": 286946927,
+        "uid": 3537107356223946,
         "targets": [
           {
             "type": 1,
-            "id": 513482994,
+            "id": 754470106,
             "live_on": {
               "enabled": true,
               "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
@@ -327,11 +327,11 @@
         ]
       },
       {
-        "uid": 3494377320089669,
+        "uid": 1616124564,
         "targets": [
           {
             "type": 1,
-            "id": 816957629,
+            "id": 751874684,
             "live_on": {
               "enabled": true,
               "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
@@ -339,6 +339,32 @@
             "live_off": {
               "enabled": true,
               "message": "{uname} 直播结束了"
+            },
+            "live_report": {
+              "enabled": true,
+              "logo": "",
+              "time": true,
+              "fans_change": true,
+              "fans_medal_change": true,
+              "guard_change": true,
+              "danmu": true,
+              "box": true,
+              "gift": true,
+              "sc": true,
+              "guard": true,
+              "danmu_ranking": 3,
+              "box_ranking": 3,
+              "box_profit_ranking": 3,
+              "gift_ranking": 3,
+              "sc_ranking": 3,
+              "guard_list": true,
+              "box_profit_diagram": true,
+              "danmu_diagram": true,
+              "box_diagram": true,
+              "gift_diagram": true,
+              "sc_diagram": true,
+              "guard_diagram": true,
+              "danmu_cloud": true
             },
             "dynamic_update": {
               "enabled": true,

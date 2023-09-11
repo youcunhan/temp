@@ -1,0 +1,272 @@
+[0m2023-09-05 01:58:39 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 01:58:39 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 01:58:41 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-05 01:58:41 V/: [Highway] Uploading group image to 116.130.228.169:8080, size=910.77 KiB[0m
+[0m2023-09-05 01:58:41 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-05 01:58:44 V/: [Highway] Uploading group image: succeed at 373 KiB/s[0m
+[0m2023-09-05 01:58:45 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 01:58:45 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 01:58:47 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 01:58:47 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 03:29:04 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 03:29:05 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 03:29:07 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-05 03:29:07 V/: [Highway] Uploading group image to 116.130.228.169:8080, size=894.81 KiB[0m
+[0m2023-09-05 03:29:07 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-05 03:29:10 V/: [Highway] Uploading group image: succeed at 356 KiB/s[0m
+[0m2023-09-05 03:29:11 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 03:29:11 V/: Recv: MessageSvc.PbSendMsg[0m
+[93m2023-09-05 07:05:38 W/: Exception in resumeConnection.
+HeartbeatFailedException: 3459246674.AliveHeartbeat, recoverable=true, cause=PacketTimeoutException(message=3459246674.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1$1.invoke(CommonNetworkHandler.kt:353)
+	at net.mamoe.mirai.internal.network.handler.NetworkHandlerSupport.setStateImpl$mirai_core(NetworkHandlerSupport.kt:329)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:415)
+	at net.mamoe.mirai.internal.network.handler.CommonNetworkHandler$StateOK$heartbeatJobs$1.invoke(CommonNetworkHandler.kt:352)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:131)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:102)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: PacketTimeoutException(message=3459246674.AliveHeartbeat Scheduler: Timeout receiving action response, cause=kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms)
+	at net.mamoe.mirai.internal.network.components.TimeBasedHeartbeatSchedulerImpl$launchHeartbeatJobAsync$1.invokeSuspend(HeartbeatScheduler.kt:133)
+	... 12 more
+Caused by: kotlinx.coroutines.TimeoutCancellationException: Timed out waiting for 5000 ms
+	at kotlinx.coroutines.TimeoutKt.TimeoutCancellationException(Timeout.kt:184)
+	at kotlinx.coroutines.TimeoutCoroutine.run(Timeout.kt:154)
+	at kotlinx.coroutines.EventLoopImplBase$DelayedRunnableTask.run(EventLoop.common.kt:508)
+	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:284)
+	at kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:108)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2023-09-05 07:05:53 V/: Validated caches.[0m
+[0m2023-09-05 07:05:53 V/: Loading server list from cache.[0m
+[0m2023-09-05 07:05:53 V/: Server list: 42.81.184.206:80, msfwifi.3g.qq.com:8080, 157.148.57.99:80, 180.101.246.123:14000, 120.241.130.216:443, 14.22.9.53:8080.[0m
+[92m2023-09-05 07:06:11 I/: ECDH key is invalid, start to fetch ecdh public key from server.[0m
+[92m2023-09-05 07:06:11 I/: Successfully fetched ecdh public key from server.[0m
+[0m2023-09-05 07:06:17 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-09-05 07:06:17 V/: Recv: wtlogin.exchange_emp[0m
+[0m2023-09-05 07:06:17 V/: Send: StatSvc.register(online)[0m
+[92m2023-09-05 07:06:17 I/: Server time updated, serverTime: 1693868777, diff: 0ms=0.0s[0m
+[0m2023-09-05 07:06:17 V/: Recv: StatSvc.register[0m
+[92m2023-09-05 07:06:17 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[92m2023-09-05 07:06:17 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[0m2023-09-05 07:06:19 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 07:06:19 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 07:06:20 V/: Server list: 183.2.144.33:443, 49.7.253.177:14000, 42.81.179.212:80, msfwifi.3g.qq.com:8080, 121.229.94.199:14000, 117.62.240.80:8080, 49.7.253.58:8080, 42.81.192.158:80, 183.47.101.221:443, 121.229.94.224:8080.[0m
+[0m2023-09-05 07:06:20 V/: Saving bdh session to cache[0m
+[0m2023-09-05 07:06:20 V/: Saving server list to cache[0m
+[0m2023-09-05 07:06:20 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 07:06:20 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 07:06:20 V/: Saving bdh session to cache[0m
+[0m2023-09-05 07:06:20 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 07:06:20 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 07:06:32 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 07:06:32 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 07:15:22 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 07:15:22 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 07:55:24 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 07:55:24 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 08:35:25 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 08:35:25 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 09:15:40 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 09:15:40 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 09:55:40 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 09:55:41 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 10:35:42 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 10:35:42 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 11:15:57 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 11:15:57 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 11:55:58 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 11:55:58 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 12:35:59 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 12:35:59 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 13:16:14 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 13:16:14 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 13:56:15 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 13:56:15 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 14:36:16 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 14:36:16 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 15:16:32 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 15:16:32 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[93m2023-09-05 15:27:27 W/: Exception in resumeConnection.
+NettyChannelException(message=null, cause=null)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.createConnection$lambda$4(NettyNetworkHandler.kt:128)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1186)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:773)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[93m2023-09-05 15:27:27 W/: Exception in resumeConnection.
+NettyChannelException(message=Failed to connect 120.232.31.250/<unresolved>:443, cause=io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /120.232.31.250:443)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.createConnection$suspendImpl(NettyNetworkHandler.kt:116)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler$createConnection$1.invokeSuspend(NettyNetworkHandler.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /120.232.31.250:443
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2023-09-05 15:27:30 V/: Validated caches.[0m
+[0m2023-09-05 15:27:30 V/: Loading server list from cache.[0m
+[0m2023-09-05 15:27:30 V/: Server list: 183.2.144.33:443, 49.7.253.177:14000, 42.81.179.212:80, msfwifi.3g.qq.com:8080, 121.229.94.199:14000, 117.62.240.80:8080, 49.7.253.58:8080, 42.81.192.158:80, 183.47.101.221:443, 121.229.94.224:8080.[0m
+[93m2023-09-05 15:27:35 W/: Cannot get qimei from server.
+net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpRequestTimeoutException: Request timeout has expired [url=https://snowflake.qq.com/ola/android, request_timeout=5000 ms]
+	at net.mamoe.mirai.internal.deps.io.ktor.client.plugins.HttpTimeout$Plugin$install$1$1$killer$1.invokeSuspend(HttpTimeout.kt:163)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.internal.LimitedDispatcher.run(LimitedDispatcher.kt:42)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:95)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:750)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664)
+[0m
+[92m2023-09-05 15:27:55 I/: ECDH key is valid.[0m
+[0m2023-09-05 15:28:02 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-09-05 15:28:02 V/: Recv: wtlogin.exchange_emp[0m
+[0m2023-09-05 15:28:02 V/: Send: StatSvc.register(online)[0m
+[92m2023-09-05 15:28:02 I/: Server time updated, serverTime: 1693898883, diff: 1ms=0.001s[0m
+[92m2023-09-05 15:28:02 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2023-09-05 15:28:02 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-09-05 15:28:02 V/: Recv: StatSvc.register[0m
+[0m2023-09-05 15:28:05 V/: Saving bdh session to cache[0m
+[0m2023-09-05 15:28:05 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 15:28:05 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 15:28:05 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 15:28:05 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 15:28:10 V/: Server list: msfwifi.3g.qq.com:8080, 123.125.0.195:14000, 123.125.0.210:443, 182.50.8.188:8080, 157.148.54.16:14000, 157.148.63.107:80, 123.125.0.210:80, 157.148.54.141:80, 220.194.118.236:80, 153.3.46.86:443.[0m
+[0m2023-09-05 15:28:10 V/: Saving bdh session to cache[0m
+[0m2023-09-05 15:28:10 V/: Saving server list to cache[0m
+[0m2023-09-05 15:28:10 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 15:28:10 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 15:28:20 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 15:28:20 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[93m2023-09-05 15:41:24 W/: Exception in resumeConnection.
+NettyChannelException(message=null, cause=null)
+	at net.mamoe.mirai.internal.network.impl.netty.NettyNetworkHandler.createConnection$lambda$4(NettyNetworkHandler.kt:128)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:578)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:552)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:491)
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:616)
+	at io.netty.util.concurrent.DefaultPromise.setSuccess0(DefaultPromise.java:605)
+	at io.netty.util.concurrent.DefaultPromise.trySuccess(DefaultPromise.java:104)
+	at io.netty.channel.DefaultChannelPromise.trySuccess(DefaultChannelPromise.java:84)
+	at io.netty.channel.AbstractChannel$CloseFuture.setClosed(AbstractChannel.java:1186)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.doClose0(AbstractChannel.java:773)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:749)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.close(AbstractChannel.java:620)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.closeOnRead(AbstractNioByteChannel.java:105)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:174)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[0m
+[0m2023-09-05 15:41:25 V/: Validated caches.[0m
+[0m2023-09-05 15:41:25 V/: Loading server list from cache.[0m
+[0m2023-09-05 15:41:25 V/: Server list: msfwifi.3g.qq.com:8080, 123.125.0.195:14000, 123.125.0.210:443, 182.50.8.188:8080, 157.148.54.16:14000, 157.148.63.107:80, 123.125.0.210:80, 157.148.54.141:80, 220.194.118.236:80, 153.3.46.86:443.[0m
+[92m2023-09-05 15:41:46 I/: ECDH key is valid.[0m
+[0m2023-09-05 15:41:53 V/: Send: wtlogin.exchange_emp(10:fast-login)[0m
+[0m2023-09-05 15:41:53 V/: Recv: wtlogin.exchange_emp[0m
+[0m2023-09-05 15:41:53 V/: Send: StatSvc.register(online)[0m
+[92m2023-09-05 15:41:53 I/: Server time updated, serverTime: 1693899714, diff: 1ms=0.001s[0m
+[0m2023-09-05 15:41:53 V/: Recv: StatSvc.register[0m
+[92m2023-09-05 15:41:53 I/: Scheduled refresh login session in 19d 23h 55min 0.0s.[0m
+[92m2023-09-05 15:41:53 I/: Scheduled key refresh in 23h 55min 0.0s.[0m
+[0m2023-09-05 15:41:56 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 15:41:56 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 15:41:56 V/: Saving bdh session to cache[0m
+[0m2023-09-05 15:41:56 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 15:41:56 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 15:42:01 V/: Server list: 180.110.193.149:8080, 183.47.110.220:8080, msfwifi.3g.qq.com:8080, 49.7.253.65:80, 106.39.206.110:14000, 117.62.240.80:443, 42.81.192.158:80, 222.94.109.78:443, 183.47.99.24:80.[0m
+[0m2023-09-05 15:42:01 V/: Saving bdh session to cache[0m
+[0m2023-09-05 15:42:01 V/: Saving server list to cache[0m
+[0m2023-09-05 15:42:01 V/: Send: ConfigPushSvc.PushResp(ConfigPushSvc.PushResp)[0m
+[0m2023-09-05 15:42:01 V/: Recv: ConfigPushSvc.PushReq[0m
+[0m2023-09-05 15:42:13 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 15:42:13 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 15:56:32 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 15:56:32 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 16:36:33 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 16:36:33 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 17:16:34 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 17:16:35 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 17:56:50 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 17:56:50 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 18:36:52 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 18:36:52 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 19:16:52 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 19:16:52 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 19:57:08 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 19:57:08 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 20:37:10 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 20:37:10 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 20:46:58 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 20:46:58 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 20:47:00 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 20:47:01 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 20:47:01 V/: Send: ImgStore.GroupPicUp(ImgStore.GroupPicUp)[0m
+[0m2023-09-05 20:47:01 V/: Recv: ImgStore.GroupPicUp[0m
+[0m2023-09-05 20:47:03 V/: Send: MessageSvc.PbSendMsg(MessageSvc.PbSendMsg)[0m
+[0m2023-09-05 20:47:03 V/: Recv: MessageSvc.PbSendMsg[0m
+[0m2023-09-05 21:17:12 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 21:17:12 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 21:57:26 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 21:57:26 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
+[0m2023-09-05 22:37:27 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 22:37:27 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 23:17:28 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access(mobileqq.msf.security)[0m
+[0m2023-09-05 23:17:28 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Access[0m
+[0m2023-09-05 23:19:21 V/: Recv: OnlinePush.PbPushTransMsg[0m
+[0m2023-09-05 23:29:48 V/: Send: ProfileService.Pb.ReqSystemMsgNew.Group(ProfileService.Pb.ReqSystemMsgNew.Group)[0m
+[0m2023-09-05 23:29:48 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-09-05 23:29:48 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-09-05 23:29:48 V/: Recv: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2023-09-05 23:57:43 V/: Send: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish(mobileqq.msf.security)[0m
+[0m2023-09-05 23:57:43 V/: Recv: trpc.o3.ecdh_access.EcdhAccess.SsoSecureA2Establish[0m
