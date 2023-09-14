@@ -325,6 +325,53 @@
             }
           }
         ]
+      },
+      {
+        "uid": 1697848019,
+        "targets": [
+          {
+            "type": 1,
+            "id": 389193066,
+            "live_on": {
+              "enabled": true,
+              "message": "{atall}{next}{uname} 正在直播 {title}\n{url}{next}{cover}"
+            },
+            "live_off": {
+              "enabled": true,
+              "message": "{uname} 直播结束了"
+            },
+            "live_report": {
+              "enabled": true,
+              "logo": "",
+              "time": true,
+              "fans_change": true,
+              "fans_medal_change": true,
+              "guard_change": true,
+              "danmu": true,
+              "box": true,
+              "gift": true,
+              "sc": true,
+              "guard": true,
+              "danmu_ranking": 3,
+              "box_ranking": 3,
+              "box_profit_ranking": 3,
+              "gift_ranking": 3,
+              "sc_ranking": 3,
+              "guard_list": true,
+              "box_profit_diagram": true,
+              "danmu_diagram": true,
+              "box_diagram": true,
+              "gift_diagram": true,
+              "sc_diagram": true,
+              "guard_diagram": true,
+              "danmu_cloud": true
+            },
+            "dynamic_update": {
+              "enabled": true,
+              "message": "{uname} {action}\n{url}{next}{picture}"
+            }
+          }
+        ]
       }
     ]
   }
